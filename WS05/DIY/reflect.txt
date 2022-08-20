@@ -1,0 +1,17 @@
+/*
+*****************************************************************************
+                          Workshop - #5 (P2)
+Full Name  : NOUR BADIRI
+Student ID#: 108435215
+Email      : nbadiri@myseneca.ca
+Section    : NII
+Date       : 06/18/2022
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
+As far as I'm concerned, this workshop was quite helpful for me to understand how to implement different types of operator overload in a partially developed classes with different arguments. Most of them were a little bit challenging for me especially those where I have to call Power reference in order to add the list of my hero or subtruct his power level. Therefore, I was able to overcome my first issue until I declared a new "temp" variable that helped me for example to assign the value of numPowers of my Hero class to "pow", the object of Power class. Same thing I did with the other overloading operators when I assigned the value of temp to add the power to the hero and update the hero accordingly. However, the most challenging issue that I had in this workshop that took me literally 3 hours when I was compiling my program, is the error of "...is private within this context". I was very upset and happy at the same time when I found out that I simply forgot to add "std::" to my "ostream& operator" function. I will actually never forget to add it in the upcoming workshops.

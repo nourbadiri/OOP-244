@@ -1,0 +1,17 @@
+/*
+*****************************************************************************
+                          Workshop - #6 (P2)
+Full Name  : NOUR BADIRI
+Student ID#: 108435215
+Email      : nbadiri@myseneca.ca
+Section    : NII
+Date       : 07/09/2022
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
+As far as I'm concerned, this workshop was quite easy for me to handle and run properly and understand why a class with resources like "Basket" in this workshop, requires definitions of constructor, a copy constructor, copy assignment operator and destructor and that they are implicitly-defined by the compiler. Moreover, I understood that the function of Basket(Fruit fruits[], int cnt, double price ); copies data from "m_price" (existing object) to a newly created object "price", meanwhile, the function of operator=(const Basket& copy) copies data from "m_price" (existing object) to an existing created object "copy.m_price". Although the support material that I read from the course, I faced during running time of this workshop (lab and diy), many memory leaks errors that I couldn't understand their reasons. After many tries, I figure out that I wasn't delete[]ing the old memory that "m_fruits" previously points to before reassigning "m_fruits" to point at new memory. This was actually my main leak.

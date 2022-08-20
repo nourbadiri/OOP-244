@@ -1,0 +1,17 @@
+/*
+*****************************************************************************
+                          Workshop - #7 (P2)
+Full Name  : NOUR BADIRI
+Student ID#: 108435215
+Email      : nbadiri@myseneca.ca
+Section    : NII
+Date       : 07/15/2022
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
+As far as I'm concerned, this workshop was a good practice of derived classes & custom I/O operators because it helped me to understand with a concrete example of how I can implement reusability of coding structure through inheritance. According the this workshop, I called the parent class known as base class "MemberParliament" and used its attributes to declare its derived class "Minister", by class Minister : public MemberParliament. This operation helped me not only to make my code more shorter and readable because I don't need to write the same code again in "Minister" class but also I was able to increase features of "MemberParliament" class and methods by overriding it, so that the meaningful implementation of the base class method can be designed in the derived one. The only thing that I struggled with was the type casting operator in "MemberParliament" class, std::ostream& operator<<(std::ostream& os, const MemberParliament& M); that wouldn't allow me to run my program. After attending the class, I understood that whenever I'm dealing with operator, I should always have a const because it's an out operator and doesn't change the data, therefore it should be constant. Concerning the project milestone, it was pretty much similar to the previous workshops, since it deals with constructors, deconstructors, encapsulation and operators. Therefore, I didn't face any big issues through that.

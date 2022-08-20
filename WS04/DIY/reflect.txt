@@ -1,0 +1,18 @@
+/*
+*****************************************************************************
+                          Workshop - #4 (P2)
+Full Name  : NOUR BADIRI
+Student ID#: 108435215
+Email      : nbadiri@myseneca.ca
+Section    : NII
+Date       : 06/17/2022
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
+This workshop is a continuity of previous workshops regarding the different concepts that we elaborate, such us allocating dynamic memory and deallocate it thereafter and also overloading functions that initialize objects. The main focus in this workshop was about Construction and Destruction that I will try to give more details of what I learned. In fact, for a complete encapsulation, executing any preliminary logic and setting the differents objects of this program (location, battery, brush, active) to an empty state, I decided to use the default constructor that has no return type, takes its name from the class itself, which is "CleanerBot" and it was defined through two ways. First of all, I declared it with no argument {CleanerBot();} and second of all with 4 arguments to initialize the robot information in the following order: location, battery, brush, active. Concerning the destructor, it helped me to clean up at the end of my code, these objects lifetime, in order to complete the encapsulation and avoid any memory leak before going out of scope. It has the same format as a constractor except a tilde symbol that we add in the beginning.
+

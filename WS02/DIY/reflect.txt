@@ -1,0 +1,16 @@
+/*
+*****************************************************************************
+                          Workshop - #2 (P2)
+Full Name  : NOUR BADIRI
+Student ID#: 108435215
+Email      : nbadiri@myseneca.ca
+Section    : NII
+Date       : 05/30/2022
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+This workshop wasn't very challenging for me because the instructions were clear enough to show you how to code the functions in the program from the scratch. Moreover, the part 2 of this workshop was related to the first one, so I basically just copy paste the functions and changed the struct and the member names in the logic. The only challenge that I found is the function bool readBirthDate(int month); because I need to read the birth records matching the month, so I was stuck a little bit until I found out that I had to create two new vraibles int inputMonth, numResult; to use for the for loop. Apart that, everything was mangeable thanks to the support and course notes given to understand for example how to allocate a dynamic memory at the execution or run time, by creating new data-type, for example : details = new Employee[numOfRecords]; (in my part 2 of workshop) and by the end of the code, I need to deallocate it like this : delete[] details;  

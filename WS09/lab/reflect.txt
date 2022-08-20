@@ -1,0 +1,17 @@
+/*
+*****************************************************************************
+                          Workshop - #9 (P2)
+Full Name  : NOUR BADIRI
+Student ID#: 108435215
+Email      : nbadiri@myseneca.ca
+Section    : NII
+Date       : 07/29/2022
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
+As far as I'm concerned, this workshop was also a good practice to understand more how to apply rule of 3 to the classes in a hierarchy. In fact, the rule of 3 consists of a copy constructor, copy assignment operator and a destructor for each class a hierarchy. Concerning copy constructor, a derived class ("FullName" class) with resources needs explicit definitions for its special member functions(behaviours) which are the rule of three. If a programmer explicitly writes a copy constructor for derived class, without a call to base class’ copy constructor, it will call the default constructor by default. In order for us to execute copy constructor we must call the copy constructor from base class explicitly within initializer area and pass the right operand received in the derived class copy constructor. By passing the right operand we do an upcast which always succeeds since every object of derived class is inherited from the base class("Name" class). Also, by doing this, the copy constructor in derived class [FullName(const FullName& fname);] executes the base class constructor [Name();] first and then executes the logic defined in the derived class constructor. Moreover, destructors for classes in a hierarchy are called automatically by their objects at the time of object going out of scope where a derived class object calls the destructor from the base class automatically, once executed then executs its own destructor. The fourth milestone was beneficial to mee as well because it treats also the same issue of the rule of 3 by giving me more practice cases to understand.

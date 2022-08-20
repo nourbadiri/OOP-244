@@ -1,0 +1,17 @@
+/*
+*****************************************************************************
+                          Workshop - #8 (P2)
+Full Name  : NOUR BADIRI
+Student ID#: 108435215
+Email      : nbadiri@myseneca.ca
+Section    : NII
+Date       : 07/23/2022
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
+As far as I'm concerned, this workshop was a good practice of virtual functions and abstract base classes because I was able to understand through different cases and modules how to ensure that the correct function is called for an object, regardless of the reference type used to call the function. In accordance with this workshop, I've been declaring multiple pure virtual functions in "iAccount" interface such as (credit, debit and monthEnd) that I used later on in the other derived classes (Account) in order to avoid forgeting the redefinition of these functions. In addition to this, I was able to understand also the abstract class by providing an appropriate base class like "Account" from wich other classes can inherit like "ChequingAccount". Therefore, it makes more sense to define a function once in a parent class rather than defining over and over again in multiple subclasses or derived ones. The third milestone was beneficial as well because it treats not only the same issue of virtual functions by giving me more practice cases to understand, but also it helped me to fix the precision for display function that I struggled before to have the correct output.

@@ -1,0 +1,18 @@
+/*
+*****************************************************************************
+                          Workshop - #10 (P2)
+Full Name  : NOUR BADIRI
+Student ID#: 108435215
+Email      : nbadiri@myseneca.ca
+Section    : NII
+Date       : 08/05/2022
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
+As far as I'm concerned, as the previous workshops, this one was also beneficial for me because I learned why templates are used and how to implement them. The concept of templates is better understood if we get to know what parametric polymorphism means. By saying C++ supports parametric polymorphism, we mean it is a language that the functions we declare in it can be declared so they can handle values without depending on their type. Parametric polymorphism helps us to execute the same code for any type; we do this in C++ by using templates. Using function templates in this workshop helped me to pass different data types as a parameter; this way, I didn't have to write the same code for different data types. An important note that I learned about templates was that in C++, templates need to be instantiated by the compiler before actually compiling them into object code, and therefore we should implement templates only in the header file. The reason for that is when we instantiate a template, the compiler creates a new class and that class contains all the places where we replaced the template argument with the actual type argument. C++ does this automatically and in order to compile the program successfully, the compiler needs to have access to the implementation of those classes before encountering the code that uses template arguments; that's why we implement templates in the header file. Another thing I've learned this week is that templates can have more than one data type as arguments and we can also define default values for template arguments. Concerning the milestone, it was a good example for practicing all the termenologies that we get to learn during this course such as: construction, deconstruction, helper functions and derived classes. Overall, I think I pretty much understood how all these functions work and what are the required conditions that should be applied in order to run any program properly.
+
